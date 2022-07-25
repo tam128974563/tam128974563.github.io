@@ -72,7 +72,7 @@ html,
 body {
 	color: #898989;
 	font-size: 15px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	line-height: normal;
 	font-weight: 400;
 	overflow-x: hidden;
@@ -245,19 +245,15 @@ a.btn.border_btn {
 	background: transparent;
 }
 
-a.btn:hover,
-button.btn:hover,
-a.btn:focus,
-button.btn:focus {
-	background: #252525;
-	color: #fff;
-}
+
 
 button.btn.white_btn,
 a.btn.white_btnbutton.btn.white_btn,
 a.btn.white_btn {
-	background: #fff;
+	background: #252525;
 	padding: 0 50px;
+	color: #fff !important;
+	border-radius: 25px !important;
 }
 
 .btn.sqaure_bt i {
@@ -949,13 +945,13 @@ header .right_bt .btn {
 
 .logo {
 	float: left;
-	margin: 19px 0 19px;
+	margin: 15px 0 15px;
 	position: relative;
 	left: 0;
 }
 
 .logo img {
-	height: 80px;
+	height: 60px;
 }
 
 .header_style_1 .header_top {
@@ -971,7 +967,7 @@ header .right_bt .btn {
 	border-radius: 0;
 	font-weight: 600;
 	padding: 0 35px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .topbar-left {
@@ -1009,6 +1005,7 @@ header .right_bt .btn {
 .menu_side {
 	float: right;
 	width: auto;
+	margin-top: -10px;
 }
 
 .main_menu div#navbar_menu ul li a i {
@@ -2171,6 +2168,9 @@ section.dottad_star_bg {
 	color: #17a5e9;
 }
 
+.counter h5 {
+	text-align: center;
+}
 .margin_bottom_30 {
 	margin-bottom: 30px;
 }
@@ -3205,7 +3205,7 @@ span.skill {
 	-------------------------------------------------------------------*/
 
 .testmonial_section {
-	background-image: url('../images/it_service/test_bg.png');
+	background-image: url('../images/main/test_bg.png');
 	background-size: cover;
 	padding-bottom: 185px;
 }
@@ -3478,7 +3478,7 @@ footer ul.social_icons {
 
 .gross_layout::after {
 	position: absolute;
-	background: url(../images/it_service/dark_bg_img.png);
+	background: url(../images/main/dark_bg_img.png);
 	width: 35%;
 	height: 100%;
 	right: 0;
@@ -3492,7 +3492,7 @@ footer ul.social_icons {
 
 .gross_layout.right_gross_layout::after {
 	position: absolute;
-	background: url(../images/it_service/dark_bg_img2.png);
+	background: url(../images/main/dark_bg_img2.png);
 	width: 35%;
 	height: 100%;
 	left: 0;
@@ -3590,7 +3590,7 @@ footer ul.social_icons {
 }
 
 .inner_banner_section {
-	background: url('../images/it_service/inner_page_banner.jpg');
+	background: url('../images/main/inner_page_banner.jpg');
 	min-height: 245px;
 	background-size: cover;
 	background-position: center center;
@@ -4777,5 +4777,12 @@ footer ul.social_icons {
 
 .product_detail_side.detail_style1 {
 	margin-top: 35px;
+}
+.sec4 {
+	background: url(../images/main/backgeound-j.jpg);
+	background-repeat: no-repeat;
+   
+     background-position: center;
+     background-size: 100% 100%;
 }
 

@@ -159,6 +159,10 @@
       transition: ease all 0.5s;
       padding-bottom: 25px;
   }
+  .make_appo {
+    float: right;
+    margin-top: 9px;
+}
 	
 }
 
@@ -386,6 +390,11 @@
 		float: left;
 		font-size: 25px;
 	}
+	.make_appo {
+		float: right;
+		margin-top: 11px;
+		margin-left: 10px;
+		
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -778,6 +787,12 @@
 		justify-content: center;
 		width: 100%;
 	}
+	.right_section_header_top .float-right {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 15px;}
+
 	.header_top ul li {
 		margin: 0;
 		font-size: 14px;
@@ -1435,6 +1450,10 @@
    .cprt {
         padding-left: 0px;
     }
+	.sec3 .btn-center {
+		text-align: center;
+		margin-bottom: 25px;
+	}
    
 }
 
