@@ -1547,6 +1547,9 @@
 	.xs-hidden {
 	    display:none !important;
 	}
+	.slick-slide img {
+		width: 80%;
+	 }
 	
 }
 
@@ -1780,4 +1783,4 @@ footer.footer_style_2 div.col-md-3 {
 }
 
 
-}
+}};

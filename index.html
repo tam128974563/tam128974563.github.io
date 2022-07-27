@@ -32,10 +32,10 @@
 <link rel="stylesheet" type="text/css" href="revolution/css/settings.css" />
 <link rel="stylesheet" type="text/css" href="revolution/css/layers.css" />
 <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css" />
-<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      <![endif]-->
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body id="default_theme" class="it_service">
 <!-- loader -->
@@ -811,6 +811,7 @@
 <!-- end section -->
 
 <!-- section -->
+
 <div class="section padding_layout_1" style="padding: 50px 0;">
   <div class="container">
     <div class="row">
@@ -819,14 +820,19 @@
           <div class="main_heading text_align_center">
             <h2>Công ty đối tác</h2>
           </div>
-          <ul class="brand_list">
+          <!-- <ul class="brand_list">
             <li><img src="images/main/brand_icon1.png" alt="#" /></li>
             <li><img src="images/main/brand_icon2.png" alt="#" /></li>
             <li><img src="images/main/brand_icon3.png" alt="#" /></li>
             <li><img src="images/main/brand_icon4.png" alt="#" /></li>
             <li><img src="images/main/brand_icon5.png" alt="#" /></li>
-            
-          </ul>
+          </ul> -->
+          <section class="client-slider">
+            <div class="slide"><a href="#"><img title="Công ty cổ phần dệt may Đông Á" src="images/logos/partner/partner01.png"></a></div>
+            <div class="slide"><a href="https://www.thanhcong.com.vn/vi/trang-chu/"><img title="Công Ty Cổ Phần Dệt May - Đầu Tư - Thương Mại Thành Công (TCG)" src="images/logos/partner/partner02.png"></a></div>
+            <div class="slide"><a><img title="Công Ty TNHH dệt may Phương Đông" src="images/logos/partner/partner03.png"></a></div>
+            <div class="slide"><img src="images/logos/partner/partner04.png"></div>
+         </section>
         </div>
       </div>
     </div>
@@ -925,8 +931,10 @@
   </div>
 </footer>
 <!-- end footer -->
+
 <!-- js section -->
 <script src="js/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <!-- menu js -->
 <script src="js/menumaker.js"></script>

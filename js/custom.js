@@ -187,7 +187,29 @@ tpj(document).ready(function() {
 
 /**===== End slider =====**/
 	
-	
+
+$(document).ready(function(){
+  $('.client-slider').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1200,
+    arrows: false,
+    dots: false,
+    pauseOnHover: false,
+    responsive: [{
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 3
+      }
+    }, {
+      breakpoint: 520,
+      settings: {
+        slidesToShow: 2
+      }
+    }]
+  });
+});
 /** header fixed js **/
 
 $(window).scroll(function(){
@@ -198,6 +220,7 @@ $(window).scroll(function(){
        $('.header_fixed_on_scroll').removeClass('fixed-header');
     }
 });
+
 
 	
 	
