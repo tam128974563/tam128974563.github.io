@@ -1628,7 +1628,9 @@
     max-width: 100%;
     flex: 100%;
    }
-   
+   .sec3 a{
+	margin-bottom: 20px;
+}
 	
 }
 
@@ -1780,6 +1782,9 @@
 
 footer.footer_style_2 div.col-md-3 {
     margin-bottom: 50px;
+}
+.sec3 a{
+	margin-bottom: 20px;
 }
 
 

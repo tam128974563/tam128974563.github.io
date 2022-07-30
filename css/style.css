@@ -396,9 +396,10 @@ p {
 }
 
 p.large {
-	color: #898989;
-	font-size: 20px;
+	color: #636363;
+	font-size: 24px;
 	font-weight: 400;
+	line-height: 24px;
 	margin: 0 0 10px 0;
 }
 
@@ -2159,7 +2160,7 @@ section.dottad_star_bg {
 	color: #000;
 	margin-top: 15px;
 	margin-bottom: 0px;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 18px;
 }
 
@@ -4778,6 +4779,10 @@ footer ul.social_icons {
 .product_detail_side.detail_style1 {
 	margin-top: 35px;
 }
+
+.sec2 a {
+	margin-top: 35px;
+}
 .sec4 {
 	background: url(../images/main/backgeound-j.jpg);
 	background-repeat: no-repeat;
@@ -4788,6 +4793,10 @@ footer ul.social_icons {
 .sec4 h5 {
 	margin-top: 15px;
 }
+.sec3 a {
+	margin-top: 35px;
+}
+
 .slick-slide {
 	margin: 0px 20px;
  }
