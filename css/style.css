@@ -4786,9 +4786,9 @@ footer ul.social_icons {
 .sec4 {
 	background: url(../images/main/backgeound-j.jpg);
 	background-repeat: no-repeat;
-   
-     background-position: center;
-     background-size: 100% 100%;
+
+    background-position: center center;
+    background-size: cover;
 }
 .sec4 h5 {
 	margin-top: 15px;
