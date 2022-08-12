@@ -1944,6 +1944,7 @@ section.dottad_star_bg {
 	padding: 40px 70px;
 }
 
+
 .adress_cont .info_cont h4 {
 	font-size: 14px;
 	font-family: poppins;
@@ -2753,6 +2754,14 @@ span.skill {
 .categary li:focus a {
 	color: #fff;
 }
+.categary .active {
+	padding-left: 30px;
+	background: #039ee3;
+	
+}
+.categary .active a {
+	color: #fff;
+}
 
 .tags a {
 	border: solid 1px #e1e1e1;
@@ -2846,9 +2855,11 @@ span.skill {
 	padding: 30px 0;
 	float: left;
 	width: 100%;
-	border-top: solid #039ee3 8px;
+	border-top: solid #039ee3 2px;
 }
-
+.blog_feature_cantant img {
+	width: 100%;
+}
 .blog_head {
 	font-size: 18px;
 	color: #000;

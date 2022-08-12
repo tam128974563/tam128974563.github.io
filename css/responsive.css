@@ -1059,6 +1059,9 @@
 	.blog_feature_cantant {
 		padding: 30px 20px;
 	}
+	.blog_feature_cantant .post_info {
+		margin-top: 25px;
+	}
 	.blog_section {
 		margin-bottom: 25px;
 		float: left;
@@ -1746,7 +1749,6 @@
 .topbar-left {
     width: 100%;
 }
-
 
 .product_list {
     min-height: auto;
