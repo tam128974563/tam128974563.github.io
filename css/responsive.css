@@ -1493,6 +1493,38 @@
 		left:50px;
 		right:inherit;
 	  }
+	  .timeline{
+		width:100%;
+		padding-bottom:0;
+	  }
+	  h1{
+		font-size:40px;
+		text-align:center;
+	  }
+	  .timeline:before{
+		left:20px;
+		height:100%;
+	  }
+	  .timeline ul li:nth-child(odd),
+	  .timeline ul li:nth-child(even)
+	  {
+		width:100%;
+		text-align:left;
+		padding-left:50px;
+		padding-bottom:50px;
+	  }
+	  .timeline ul li:nth-child(odd):before,
+	  .timeline ul li:nth-child(even):before
+	  {
+		top:-18px;
+		left:16px;
+	  }
+	  .timeline ul li:nth-child(odd) .time,
+	  .timeline ul li:nth-child(even) .time{
+		top:-30px;
+		left:50px;
+		right:inherit;
+	  }
    
 }
 
@@ -1505,7 +1537,7 @@
 		width: 100%;
 	}
 	.logo img {
-		width: 150px;
+		width: 200px;
 	}
 	.cleaning .logo img {
        height: auto;

@@ -1178,7 +1178,7 @@ img.tp-slider-alternative-image	{
 	-  STANDARD NAVIGATION SETTINGS 
 ***********************************************/
 
-
+/* 
 .tp-thumbs.navbar,
 .tp-bullets.navbar,
 .tp-tabs.navbar					{	border:none; min-height: 0; margin:0; border-radius: 0; -moz-border-radius:0; -webkit-border-radius:0;}
@@ -1217,7 +1217,7 @@ img.tp-slider-alternative-image	{
 .tparrows:hover 				{	background:#000;}
 .tparrows:before				{	font-family: "revicons"; font-size:15px; color:#fff; display:block; line-height: 40px; text-align: center;}
 .tparrows.tp-leftarrow:before	{	content: '\e824'; }
-.tparrows.tp-rightarrow:before	{	content: '\e825'; }
+.tparrows.tp-rightarrow:before	{	content: '\e825'; } */
 
 
 
