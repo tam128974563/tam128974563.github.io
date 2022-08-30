@@ -40,6 +40,9 @@ body {
 	line-height: normal;
 	font-weight: 400;
 	overflow-x: hidden;
+	scroll-behavior: auto;
+	scroll-behavior: smooth;
+	
 }
 
 body {
@@ -183,10 +186,10 @@ a,
 
 a.btn,
 button.btn {
-	min-width: 170px;
+	padding: 0px 25px;
 	height: 50px;
 	border-radius: 100px;
-	padding: 0;
+
 	text-align: center;
 	line-height: 52px;
 	font-size: 14px;
@@ -845,11 +848,21 @@ hr.dottad_border {
 
 /*----- header fix -----*/
 
-.fixed-header {
+.header_bottom.fixed-header {
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
+	background-color: #fff;
+	-webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+	-moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+	box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+	z-index: 5;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 
@@ -874,6 +887,12 @@ header .right_bt .btn {
 
 .header_bottom {
 	min-height: auto;
+	-webkit-transition: position 10s;
+	-moz-transition: position 10s;
+	-ms-transition: position 10s;
+	-o-transition: position 10s;
+	transition: position 5s;
+
 }
 
 .header_top ul {

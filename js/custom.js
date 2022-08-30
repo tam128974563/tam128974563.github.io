@@ -213,11 +213,11 @@ $(document).ready(function(){
 /** header fixed js **/
 
 $(window).scroll(function(){
-    if ($(window).scrollTop() >= 300) {
-       $('.header_fixed_on_scroll').addClass('fixed-header');
+    if ($(window).scrollTop() >= 150) {
+       $('.header_bottom').addClass('fixed-header');
     }
     else {
-       $('.header_fixed_on_scroll').removeClass('fixed-header');
+       $('.header_bottom').removeClass('fixed-header');
     }
 });
 
